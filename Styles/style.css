@@ -1,0 +1,513 @@
+body {
+    background-color: rgb(255, 211, 218);
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'First';
+    src: url(/Assets/fonts/Lugrasimo-Regular.ttf);
+}
+
+#BarraGrid {
+    display: grid;
+    background-color: rgb(233, 162, 174);
+    width: 100%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px;
+
+    grid-template-columns: 10% auto 11% 11% 11%;
+}
+
+#BarraGrid a {
+    position: relative;
+    color: black;
+    text-decoration: none;
+    font-family: 'First';
+    top: 37px;
+    margin-left: 20%;
+}
+
+#BarraGrid a:hover {
+    color: rgb(192, 110, 123);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#Titulo {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: 300px;
+    background-image: url(/Assets/img/Portadas/FloresTitulo.jfif);
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+}
+
+#Titulo h1 {
+    position: relative;
+    font-family: 'First';
+    left: 40vw;
+    padding-top: 2%;
+    font-size: 50px;
+    color: rgb(223, 108, 127);
+}
+
+#Titulo h2 {
+    position: relative;
+    left: 24vw;
+    padding-top: 6%;
+    font-family: 'First';
+    font-size: 30px;
+    color: rgb(223, 108, 127);
+}
+
+
+#CatalogoTitulo h1 {
+    font-family: 'First';
+    color: rgb(223, 108, 127);
+    /* position: relative;
+    left: 34%; */
+    text-align: center;
+    font-size: 100px;
+}
+
+#CatalogoTitulo {
+    padding-top: 45px;
+    padding-bottom: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(/Assets/img/Portadas/PortadaCatalogo.jfif);
+    background-size: 100%;
+}
+
+#CatalogoTitulo h2 {
+    position: relative;
+    color: rgb(223, 108, 127);
+    top: -75px;
+    text-align: center;
+    /* left: 37%; */
+    font-family: 'First';
+    font-size: 35px;
+}
+
+#inclusiones {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-flow: row nowrap;
+    margin: auto;
+    border: solid;
+    border-color: rgb(223, 108, 127);
+}
+
+#TextoInclusiones {
+    width: 60vw;
+}
+
+#TextoInclusiones p {
+    color: rgb(223, 108, 127);
+    font-size: 30px;
+    text-align: center;
+    padding-right: 20px;
+}
+
+#inclusiones h2 {
+    color: rgb(223, 108, 127);
+    font-family: 'First';
+    text-align: center;
+    font-size: 30px;
+}
+
+#InclusionesImg {
+    width: 40vw;
+}
+
+#InclusionesImg img {
+    padding-top: 30px;
+    width: 95%;
+    height: 90%;
+}
+
+
+/* 
+#inclusiones h2 {
+    position: relative;
+    font-size: 45px;
+    left: 35%;
+    font-family: 'First';
+    color: rgb(223, 108, 127);
+    margin-bottom: 20px;
+}
+
+#TextoInclusiones {
+    position: relative;
+    margin-right: 35%;
+    margin-left: 0px;
+    font-size: 40px;
+    color: rgb(223, 108, 127);
+    text-align: center;
+}
+
+
+#VelaBurbuja {
+    position: relative;
+    margin-bottom: -300px;
+    left: 75%;
+    top: -350px;
+    width: 450px;
+    height: 350px;
+} */
+
+#OferubiFather {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+}
+
+#OferubiFather section {
+    width: 50%;
+    border: solid;
+    border-color: rgb(223, 108, 127);
+}
+
+#OferubiFather section h2 {
+    text-align: center;
+    font-family: 'First';
+    font-size: 50px;
+    color: rgb(223, 108, 127);
+}
+
+#Ofertas #OfertaPortada {
+    width: 70%;
+    height: 45%;
+    margin-left: 15%;     
+}
+
+#Ofertas p {
+    color: rgb(223, 108, 127);
+    font-size: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#Mapa {
+    width: 80%;
+    height: 60%;
+    margin-left: 12%;
+}
+
+#Pie {
+    background-color: black;
+    width: 100%;
+    padding: 1px;
+    box-sizing: border-box;
+}
+
+#InteriorPie {
+    background-image: url(/Assets/img/Portadas/PortadaFinal.jfif);
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    color: rgb(223, 108, 127);
+    font-size: 55px;
+    padding: 350px 0;
+}
+
+/* #InteriorPie {
+    background-image: url(/Assets/img/Portadas/PortadaFinal.jfif);
+    background-size: 100%;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    position: relative;
+    top: 290%;
+    left: 5%;
+    padding-bottom: 200px;
+}
+
+#InteriorPie p {
+    color: rgb(223, 108, 127);
+    font-size: 55px;
+}
+
+#InteriorPie a {
+    position: relative;
+    left: 0%;
+    font-size: 70px;
+    color: black;
+    text-decoration: none;
+    font-family: 'First';
+}
+
+#Pie {
+    background-color: black;
+} */
+
+#TituloVelas {
+    color: rgb(223, 108, 127);
+    font-family: 'First';
+    font-size: 40px;
+    position: relative;
+    text-align: center;
+}
+
+#VelasFather {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+#VelasFather section {
+    width: 30%;
+    border: solid;
+    border-color: rgb(223, 108, 127);
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+#VelasFather img {
+    width: 60%;
+    height: 350px;
+    margin-left: 20%;
+    margin-top: 20px;
+}
+
+#VelasFather h3 {
+    text-align: center;
+    color: rgb(223, 108, 127);
+    font-size: 30px;
+}
+
+#VelasFather p {
+    text-align: center;
+    color: rgb(223, 108, 127);
+    margin-left: 10px;
+    margin-right: auto;
+    font-size: 25px;
+}
+
+@media (max-width: 490px) {
+    #VelasFather {
+        flex-flow: row wrap;
+    }
+
+    #VelasFather section {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+}
+
+#Articulos {
+        color: rgb(223, 108, 127);
+        font-family: 'First';
+        font-size: 40px;
+        position: relative;
+        text-align: center;
+}
+
+#ArticlesFather {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+#ArticlesFather section {
+    width: 30%;
+    margin-left: 10px;
+    margin-right: auto;
+    border: solid;
+    border-color: rgb(223, 108, 127);
+}
+
+#ArticlesFather img {
+    width: 60%;
+    height: 350px;
+    margin-left: 20%;
+    margin-top: 20px;
+}
+
+#ArticlesFather h3 {
+    text-align: center;
+    color: rgb(223, 108, 127);
+    font-size: 30px;
+}
+
+#ArticlesFather p {
+    text-align: center;
+    color: rgb(223, 108, 127);
+    margin-left: 10px;
+    margin-right: auto;
+    font-size: 25px;
+}
+
+@media (max-width: 480px) {
+    #ArticlesFather {
+        flex-flow: row wrap;
+    }
+
+    #ArticlesFather section {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+}
+
+#OfertasC h2 {
+    color: rgb(223, 108, 127);
+    font-family: 'First';
+    font-size: 40px;
+    position: relative;
+    left: 43%;
+    margin-bottom: -5px;
+}
+
+#OfertasC h3 {
+    color: rgb(223, 108, 127);
+    font-family: 'First';
+    font-size: 20px;
+    position: relative;
+    left: 40%;
+}
+
+#OffersFather {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+#OffersFather section {
+    width: 40%;
+    border: solid;
+    border-color: rgb(223, 108, 127);
+    margin-left: 100px ;
+    margin-right: auto;
+}
+
+#OffersFather img {
+    width: 50%;
+    height: 350px;
+    margin-left: 28%;
+    margin-top: 20px;
+}
+
+#OffersFather p {
+    text-align: center;
+    color: rgb(223, 108, 127);
+    margin-left: 10px;
+    margin-right: auto;
+    font-size: 25px;
+}
+
+@media (max-width: 480px) {
+    #Titulo h1 {
+        left: 15vw;
+        font-size: 50px;
+        padding-bottom: 0px;
+        margin-bottom: -150px;
+    }
+
+    #Titulo h2 {
+        left: 12vw;
+        padding-top: 2%;
+    }
+
+    #inclusiones {
+        flex-flow: row wrap;
+    }
+    
+    #InclusionesSec {
+        width: 100%;
+        height: 10%;
+    }
+
+    #TextoInclusiones{
+        width: 100%;
+        height: 40%;
+    }
+    
+    #TextoInclusiones p {
+        font-size: 20px;
+    }
+
+    #InclusionesImg {
+        width: 100%;
+        height: 50%;
+        margin-top: 150px;
+        margin-left: 20px;
+    }
+
+    #OferubiFather {
+        flex-flow: column wrap;
+        width: 100%;
+        height: 80%;
+    }
+
+    #OferubiFather #Ofertas {
+        width: 100vw;
+        height: 15%;
+    }
+
+    #Ofertas p {
+        font-size: 25px;
+    }
+
+    #OferubiFather #Ubicacion {
+        width: 100%;
+        height: 50%;
+    }
+
+    #OferubiFather #Mapa {
+        width: 350px;
+        height: 450px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+    }
+
+    #BarraGrid {
+        grid-template-columns: auto auto auto auto auto;
+    }
+
+    #BarraGrid a {
+        font-size: 10px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 490px) {
+    #OffersFather {
+        flex-flow: row wrap;
+    }
+
+    #OffersFather section {
+        width: 90%;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+
+    #OfertasC h2 {
+        position: relative;
+        left: 0%;
+        margin-left: 140px;
+        margin-right: auto;
+    }
+
+    #OfertasC h3 {
+        position: relative;
+        left: 0%;
+        margin-left: 80px;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    #CatalogoTitulo h1 {
+        font-size: 50px;
+    }
+
+    #CatalogoTitulo h2 {
+        top: -40px;
+        font-size: 25px;
+    }
+}
