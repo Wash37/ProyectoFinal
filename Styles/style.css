@@ -8,7 +8,7 @@ body {
 
 @font-face {
     font-family: 'First';
-    src: url(/Assets/fonts/Lugrasimo-Regular.ttf);
+    src: url(../Assets/fonts/Lugrasimo-Regular.ttf);
 }
 
 #BarraGrid {
@@ -43,7 +43,7 @@ body {
     flex-flow: row wrap;
     width: 100%;
     height: 300px;
-    background-image: url(/Assets/img/Portadas/FloresTitulo.jfif);
+    background-image: url(../Assets/img/Portadas/FloresTitulo.jfif);
     background-size: cover;
     background-position: center center;
     text-align: center;
@@ -82,7 +82,7 @@ body {
     padding-bottom: 50px;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url(/Assets/img/Portadas/PortadaCatalogo.jfif);
+    background-image: url(../Assets/img/Portadas/PortadaCatalogo.jfif);
     background-size: 100%;
 }
 
@@ -210,7 +210,7 @@ body {
 }
 
 #InteriorPie {
-    background-image: url(/Assets/img/Portadas/PortadaFinal.jfif);
+    background-image: url(../Assets/img/Portadas/PortadaFinal.jfif);
     background-size: cover;
     background-position: center center;
     text-align: center;
