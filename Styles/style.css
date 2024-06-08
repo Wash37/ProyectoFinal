@@ -122,6 +122,7 @@ body {
     font-family: 'First';
     text-align: center;
     font-size: 30px;
+    margin-top: 15px;
 }
 
 #InclusionesImg {
@@ -289,6 +290,307 @@ body {
     margin-left: 10px;
     margin-right: auto;
     font-size: 25px;
+}
+
+.MainSessionBox {
+    border: solid;
+    border-color: rgb(223, 108, 127);
+    background-color: white;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 100vh;
+    height: 500px;
+}
+
+.MainSessionBox h1 {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(223, 108, 127);
+}
+
+.MainSessionBox h2 {
+    font-size: 30px;
+    color: rgb(223, 108, 127);
+
+}
+
+.MainSessionBox form {
+    text-align: center;
+}
+
+.MainSessionBox #Mantener {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.MainSessionBox .SessionRest {
+    text-align: center;
+    font-size: 20px;
+}
+
+.MainSessionBox #ForgetPass {
+    position: relative;
+    font-size: 20px;
+    left: 40%;
+}
+
+.MainSessionBox #Register {
+    position: relative;
+    font-size: 20px;
+    left: 45%;
+}
+
+#RedesTitulo {
+    text-align: center;
+    font-size: 100px;
+    color: rgb(223, 108, 127);
+}
+
+.ButtonsRedes {
+    position: relative;
+    left: 10%;
+    width: 80%;
+    height: 700px;
+
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.ButtonsRedes a {
+    border: solid;
+    height: 33%;
+    margin-top: 20px;
+    font-size: 100px;
+    text-decoration: none;
+    color: rgb(223, 108, 127);
+    text-align: center;
+    padding-top: 2.5%;
+}
+
+#TituloCarrito {
+    color: rgb(223, 108, 127);
+    font-size: 70px;
+    text-align: center;
+}
+
+.MainContainerCarrito {
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%;
+    margin-left: 10%;
+    height: 800px;
+    border: solid;
+    border-color: rgb(223, 108, 127);
+}
+
+.MainContainerCarrito .MainBox {
+    width: 80%;
+    height: 20%;
+    margin-left: 10%;
+}
+
+.Box1 {
+    border: solid;
+    border-color: rgb(223, 108, 127);
+    margin-top: 100px;
+    display: grid;
+    grid-template-areas: "Foto ValorUni ValorTotal Cantidad";
+}
+
+.Box1 .Foto {
+    grid-area: Foto;
+    height: 100%;
+    background-image: url(../Assets/img/Catalogo/Vela2.jfif);
+    background-position: center center;
+    background-size: cover;
+}
+
+.Box1 .ValorUni {
+    grid-area: ValorUni;
+}
+
+.Box .ValorTotal {
+    grid-area: ValorTotal;
+}
+
+.Box1 .Cantidad {
+    grid-area: Cantidad;
+}
+
+.Box1 h2 {
+    position: relative;
+    color: black;
+    font-size: 25px;
+}
+
+.Box1 .Valor1 {
+    left: 35%;
+    top: 15%;
+}
+
+.Box1 .Precio1 {
+    left: 40.5%;
+    top: -20%;
+}
+
+.Cantidad input {
+    position: relative;
+    width: 10%;
+    left: 43%;
+    top: 10%;
+}
+
+.Box2 {
+    border: solid;
+    border-color: rgb(223, 108, 127);
+    margin-top: 100px;
+    display: grid;
+    grid-template-areas: "Foto ValorUni ValorTotal Cantidad";
+}
+
+.Box2 .Foto {
+    grid-area: Foto;
+    height: 100%;
+    background-image: url(../Assets/img/Catalogo/Vela3.jfif);
+    background-position: center center;
+    background-size: cover;
+}
+
+.Box2 .ValorUni {
+    grid-area: ValorUni;
+}
+
+.Box2 .ValorTotal {
+    grid-area: ValorTotal;
+}
+
+.Box2 .Cantidad {
+    grid-area: Cantidad;
+}
+
+.Box2 h2 {
+    position: relative;
+    color: black;
+    font-size: 25px;
+}
+
+.Box2 .Valor1 {
+    left: 35%;
+    top: 15%;
+}
+
+.Box2 .Precio1 {
+    left: 40.5%;
+    top: -20%;
+}
+
+.Cantidad input {
+    position: relative;
+    width: 10%;
+    left: 43%;
+    top: 10%;
+}
+
+.Box3 input {
+    background-color:cornflowerblue;
+    border-color: cornflowerblue;
+    font-size: 20px;
+    color: white;
+    width: 200px;
+    height: 50px;
+    position: relative;
+    left: 40%;
+    top: 35%;
+}
+
+.Box3 {
+    border: none;
+}
+
+@media (max-width: 480px) {
+    .MainContainerCarrito {
+        height: 90vh;    
+    }
+
+    .Box1 {
+        grid-template-areas:"Foto Foto ValorUni ValorTotal"
+                            "Foto Foto Cantidad Cantidad";
+    }
+
+    .Box1 .Foto {
+        height: 97.5%;
+        width: 100px;
+    }
+
+    .Box1 .Valor1 {
+        position: relative;
+        font-size: 15px;
+        left: 10px;
+    }
+
+    .Box1 .Precio1 {
+        position: relative;
+        font-size: 15px;
+        left: 20px;
+    }
+
+    .Box1 .Cantidad {
+        position: relative;
+        left: 50px;
+        top: -30px;
+    }
+
+    .Box1 input {
+        position: relative;
+        left: 20px;
+        width: 20%;
+    }
+
+    .Box2 {
+        grid-template-areas:"Foto Foto ValorUni ValorTotal"
+                            "Foto Foto Cantidad Cantidad";
+    }
+
+    .Box2 .Foto {
+        height: 97.5%;
+        width: 100px;
+    }
+
+    .Box2 .Valor1 {
+        position: relative;
+        font-size: 15px;
+        left: 10px;
+    }
+
+    .Box2 .Precio1 {
+        position: relative;
+        font-size: 15px;
+        left: 20px;
+    }
+
+    .Box2 .Cantidad {
+        position: relative;
+        left: 50px;
+        top: -30px;
+    }
+
+    .Box2 input {
+        position: relative;
+        left: 20px;
+        width: 20%;
+    }
+
+    .Box3 input {
+        position: relative;
+        left: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .ButtonsRedes a {
+        font-size: 70px;
+    }
 }
 
 @media (max-width: 490px) {
@@ -509,5 +811,27 @@ body {
     #CatalogoTitulo h2 {
         top: -40px;
         font-size: 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    .MainSessionBox {
+        position: absolute;
+        left: 17%;
+        top: 15%;
+        width: 30vh;
+        height: 550px;
+    }
+
+    .MainSessionBox #ForgetPass {
+        position: relative;
+        font-size: 20px;
+        left: 20%;
+    }
+    
+    .MainSessionBox #Register {
+        position: relative;
+        font-size: 20px;
+        left: 35%;
     }
 }
