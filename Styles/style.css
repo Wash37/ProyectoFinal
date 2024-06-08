@@ -89,7 +89,7 @@ body {
 #CatalogoTitulo h2 {
     position: relative;
     color: rgb(223, 108, 127);
-    top: -75px;
+    top: 5%;
     text-align: center;
     /* left: 37%; */
     font-family: 'First';
@@ -431,7 +431,7 @@ body {
 
 .Box1 .Precio1 {
     left: 40.5%;
-    top: -20%;
+    top: 15%;
 }
 
 .Cantidad input {
@@ -482,7 +482,7 @@ body {
 
 .Box2 .Precio1 {
     left: 40.5%;
-    top: -20%;
+    top: 15%;
 }
 
 .Cantidad input {
@@ -509,6 +509,19 @@ body {
 }
 
 /* responsive */
+.navbar-nav {
+    position: relative;
+    left: 85%;
+}
+
+.container-fluid {
+    background-color: rgb(233, 162, 174);
+    padding-bottom: px;
+}
+
+.navbar {
+    background-color: rgb(233, 162, 174);
+}
 
 @media (max-width: 480px) {
     .MainContainerCarrito {
