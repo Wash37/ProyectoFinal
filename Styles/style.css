@@ -508,6 +508,8 @@ body {
     border: none;
 }
 
+/* responsive */
+
 @media (max-width: 480px) {
     .MainContainerCarrito {
         height: 90vh;    
