@@ -1,0 +1,26 @@
+{
+  "name": "proyecto-final",
+  "version": "1.0.0",
+  "description": "Este es el proyecto final de Enzo Riveros",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wash37/ProyectoFinal.git"
+  },
+  "keywords": [
+    "Velas",
+    "Venta",
+    "BellaRoma",
+    "Promo",
+    "Personalizada"
+  ],
+  "author": "Enzo Riveros",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wash37/ProyectoFinal/issues"
+  },
+  "homepage": "https://github.com/Wash37/ProyectoFinal#readme"
+}
