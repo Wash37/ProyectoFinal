@@ -1,0 +1,25 @@
+@mixin title {
+    h1 {
+        font-family: 'First';
+        color: $dark-pink;
+        text-align: center;
+        font-size: 100px;
+        }
+    
+        h2 {
+            position: relative;
+            color: $dark-pink;
+            top: 5%;
+            text-align: center;
+            font-family: 'First';
+            font-size: 35px;
+            }
+}
+
+@mixin subtitles {
+        margin-top: 10px;
+        text-align: center;
+        font-family: 'First';
+        font-size: 50px;
+        color: $dark-pink;
+}

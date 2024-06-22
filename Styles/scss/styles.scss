@@ -1,5 +1,7 @@
 @import "variables";
 
+@import "mixins";
+
 body {
     background-color: $light-pink;
     margin: 0;
@@ -41,32 +43,14 @@ body {
 }
 
 #Titulo {
-    display: flex;
-    flex-flow: row wrap;
-    width: 100%;
-    height: 300px;
+    padding-top: 45px;
+    padding-bottom: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
     background-image: url(../../Assets/img/Portadas/FloresTitulo.jfif);
-    background-size: cover;
-    background-position: center center;
-    text-align: center;
-
-    h1 {
-        position: relative;
-        font-family: 'First';
-        left: 40vw;
-        padding-top: 2%;
-        font-size: 50px;
-        color: $dark-pink;
-        }
-
-        h2 {
-            position: relative;
-            left: 24vw;
-            padding-top: 6%;
-            font-family: 'First';
-            font-size: 30px;
-            color: $dark-pink;
-            }
+    background-size: 100%;
+    
+    @include title;
 }
 
 #CatalogoTitulo {
@@ -77,21 +61,7 @@ body {
     background-image: url(../../Assets/img/Portadas/PortadaCatalogo.jfif);
     background-size: 100%;
     
-    h1 {
-    font-family: 'First';
-    color: $dark-pink;
-    text-align: center;
-    font-size: 100px;
-    }
-
-    h2 {
-        position: relative;
-        color: $dark-pink;
-        top: 5%;
-        text-align: center;
-        font-family: 'First';
-        font-size: 35px;
-        }
+    @include title;
 }
 
 #inclusiones {
@@ -104,11 +74,7 @@ body {
     border-color: $dark-pink;
 
     h2 {
-        color: $dark-pink;
-        font-family: 'First';
-        text-align: center;
-        font-size: 30px;
-        margin-top: 15px;
+        @include subtitles;
     }
 }
 
@@ -145,10 +111,7 @@ body {
     }
 
     section h2 {
-        text-align: center;
-        font-family: 'First';
-        font-size: 50px;
-        color: $dark-pink;
+        @include subtitles;
     }
 }
 
@@ -311,6 +274,7 @@ body {
 
 .ButtonsRedes a {
     border: solid;
+    background-color: $mezcla;
     height: 33%;
     margin-top: 20px;
     font-size: 100px;

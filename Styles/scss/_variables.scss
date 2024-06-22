@@ -2,3 +2,17 @@
 
 $light-pink: rgb(255, 211, 218);
 $dark-pink: rgb(223, 108, 127);
+
+$mezcla: mix(rgb(255,211,218),rgb(223,108,127),50%);
+
+$theme: 1;
+@if $theme == 1 {
+    $light-pink: rgb(255, 211, 218);
+    $dark-pink: rgb(223, 108, 127);
+}  @else if $theme == 2 {
+    $light-pink: rgb(223, 108, 127);
+    $dark-pink: rgb(255, 211, 218);
+} @else {
+    $light-pink: rgb(255, 211, 218);
+    $dark-pink: rgb(223, 108, 127);
+}
