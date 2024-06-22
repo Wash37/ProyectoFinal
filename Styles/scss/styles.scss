@@ -1,5 +1,7 @@
+@import "variables";
+
 body {
-    background-color: rgb(255, 211, 218);
+    background-color: $light-pink;
     margin: 0;
     padding: 0;
     width: 100vw;
@@ -55,7 +57,7 @@ body {
     left: 40vw;
     padding-top: 2%;
     font-size: 50px;
-    color: rgb(223, 108, 127);
+    color: $dark-pink;
 }
 
 #Titulo h2 {
@@ -64,13 +66,13 @@ body {
     padding-top: 6%;
     font-family: 'First';
     font-size: 30px;
-    color: rgb(223, 108, 127);
+    color: $dark-pink;
 }
 
 
 #CatalogoTitulo h1 {
     font-family: 'First';
-    color: rgb(223, 108, 127);
+    color: $dark-pink;
     /* position: relative;
     left: 34%; */
     text-align: center;
@@ -88,7 +90,7 @@ body {
 
 #CatalogoTitulo h2 {
     position: relative;
-    color: rgb(223, 108, 127);
+    color: $dark-pink;
     top: 5%;
     text-align: center;
     /* left: 37%; */
@@ -103,7 +105,7 @@ body {
     flex-flow: row nowrap;
     margin: auto;
     border: solid;
-    border-color: rgb(223, 108, 127);
+    border-color: $dark-pink;
 }
 
 #TextoInclusiones {
@@ -111,14 +113,14 @@ body {
 }
 
 #TextoInclusiones p {
-    color: rgb(223, 108, 127);
+    color: $dark-pink;
     font-size: 30px;
     text-align: center;
     padding-right: 20px;
 }
 
 #inclusiones h2 {
-    color: rgb(223, 108, 127);
+    color: $dark-pink;
     font-family: 'First';
     text-align: center;
     font-size: 30px;
@@ -135,36 +137,6 @@ body {
     height: 90%;
 }
 
-
-/* 
-#inclusiones h2 {
-    position: relative;
-    font-size: 45px;
-    left: 35%;
-    font-family: 'First';
-    color: rgb(223, 108, 127);
-    margin-bottom: 20px;
-}
-
-#TextoInclusiones {
-    position: relative;
-    margin-right: 35%;
-    margin-left: 0px;
-    font-size: 40px;
-    color: rgb(223, 108, 127);
-    text-align: center;
-}
-
-
-#VelaBurbuja {
-    position: relative;
-    margin-bottom: -300px;
-    left: 75%;
-    top: -350px;
-    width: 450px;
-    height: 350px;
-} */
-
 #OferubiFather {
     display: flex;
     flex-flow: row nowrap;
@@ -174,14 +146,14 @@ body {
 #OferubiFather section {
     width: 50%;
     border: solid;
-    border-color: rgb(223, 108, 127);
+    border-color: $dark-pink;
 }
 
 #OferubiFather section h2 {
     text-align: center;
     font-family: 'First';
     font-size: 50px;
-    color: rgb(223, 108, 127);
+    color: $dark-pink;
 }
 
 #Ofertas #OfertaPortada {
@@ -191,7 +163,7 @@ body {
 }
 
 #Ofertas p {
-    color: rgb(223, 108, 127);
+    color: $dark-pink;
     font-size: 30px;
     margin-left: 20px;
     margin-right: 20px;
@@ -215,7 +187,7 @@ body {
     background-size: cover;
     background-position: center center;
     text-align: center;
-    color: rgb(223, 108, 127);
+    color: $dark-pink;
     font-size: 55px;
     padding: 350px 0;
 }
@@ -231,38 +203,8 @@ body {
     font-size: 60px;
 }
 
-/* #InteriorPie {
-    background-image: url(/Assets/img/Portadas/PortadaFinal.jfif);
-    background-size: 100%;
-    background-size: cover;
-    background-position: center center;
-    text-align: center;
-    position: relative;
-    top: 290%;
-    left: 5%;
-    padding-bottom: 200px;
-}
-
-#InteriorPie p {
-    color: rgb(223, 108, 127);
-    font-size: 55px;
-}
-
-#InteriorPie a {
-    position: relative;
-    left: 0%;
-    font-size: 70px;
-    color: black;
-    text-decoration: none;
-    font-family: 'First';
-}
-
-#Pie {
-    background-color: black;
-} */
-
 #TituloVelas {
-    color: rgb(223, 108, 127);
+    color: $dark-pink;
     font-family: 'First';
     font-size: 40px;
     position: relative;
@@ -277,7 +219,7 @@ body {
 #VelasFather section {
     width: 30%;
     border: solid;
-    border-color: rgb(223, 108, 127);
+    border-color: $dark-pink;
     margin-left: 10px;
     margin-right: auto;
 }
@@ -291,13 +233,13 @@ body {
 
 #VelasFather h3 {
     text-align: center;
-    color: rgb(223, 108, 127);
+    color: $dark-pink;
     font-size: 30px;
 }
 
 #VelasFather p {
     text-align: center;
-    color: rgb(223, 108, 127);
+    color: $dark-pink;
     margin-left: 10px;
     margin-right: auto;
     font-size: 25px;
@@ -305,7 +247,7 @@ body {
 
 .MainSessionBox {
     border: solid;
-    border-color: rgb(223, 108, 127);
+    border-color: $dark-pink;
     background-color: white;
     position: absolute;
     top: 25%;
@@ -317,12 +259,12 @@ body {
 .MainSessionBox h1 {
     text-align: center;
     font-size: 50px;
-    color: rgb(223, 108, 127);
+    color: $dark-pink;
 }
 
 .MainSessionBox h2 {
     font-size: 30px;
-    color: rgb(223, 108, 127);
+    color: $dark-pink;
 
 }
 
@@ -355,7 +297,7 @@ body {
 #RedesTitulo {
     text-align: center;
     font-size: 100px;
-    color: rgb(223, 108, 127);
+    color: $dark-pink;
 }
 
 .ButtonsRedes {
@@ -374,13 +316,13 @@ body {
     margin-top: 20px;
     font-size: 100px;
     text-decoration: none;
-    color: rgb(223, 108, 127);
+    color: $dark-pink;
     text-align: center;
     padding-top: 2.5%;
 }
 
 #TituloCarrito {
-    color: rgb(223, 108, 127);
+    color: $dark-pink;
     font-size: 70px;
     text-align: center;
 }
@@ -392,7 +334,7 @@ body {
     margin-left: 10%;
     height: 800px;
     border: solid;
-    border-color: rgb(223, 108, 127);
+    border-color: $dark-pink;
 }
 
 .MainContainerCarrito .MainBox {
@@ -403,7 +345,7 @@ body {
 
 .Box1 {
     border: solid;
-    border-color: rgb(223, 108, 127);
+    border-color: $dark-pink;
     margin-top: 100px;
     display: grid;
     grid-template-areas: "Foto ValorUni ValorTotal Cantidad";
@@ -454,7 +396,7 @@ body {
 
 .Box2 {
     border: solid;
-    border-color: rgb(223, 108, 127);
+    border-color: $dark-pink;
     margin-top: 100px;
     display: grid;
     grid-template-areas: "Foto ValorUni ValorTotal Cantidad";
@@ -662,7 +604,7 @@ body {
 }
 
 #Articulos {
-        color: rgb(223, 108, 127);
+        color: $dark-pink;
         font-family: 'First';
         font-size: 40px;
         position: relative;
@@ -679,7 +621,7 @@ body {
     margin-left: 10px;
     margin-right: auto;
     border: solid;
-    border-color: rgb(223, 108, 127);
+    border-color: $dark-pink;
 }
 
 #ArticlesFather img {
@@ -691,13 +633,13 @@ body {
 
 #ArticlesFather h3 {
     text-align: center;
-    color: rgb(223, 108, 127);
+    color: $dark-pink;
     font-size: 30px;
 }
 
 #ArticlesFather p {
     text-align: center;
-    color: rgb(223, 108, 127);
+    color: $dark-pink;
     margin-left: 10px;
     margin-right: auto;
     font-size: 25px;
@@ -715,7 +657,7 @@ body {
 }
 
 #OfertasC h2 {
-    color: rgb(223, 108, 127);
+    color: $dark-pink;
     font-family: 'First';
     font-size: 40px;
     position: relative;
@@ -724,7 +666,7 @@ body {
 }
 
 #OfertasC h3 {
-    color: rgb(223, 108, 127);
+    color: $dark-pink;
     font-family: 'First';
     font-size: 20px;
     position: relative;
@@ -739,7 +681,7 @@ body {
 #OffersFather section {
     width: 40%;
     border: solid;
-    border-color: rgb(223, 108, 127);
+    border-color: $dark-pink;
     margin-left: 100px ;
     margin-right: auto;
 }
@@ -753,7 +695,7 @@ body {
 
 #OffersFather p {
     text-align: center;
-    color: rgb(223, 108, 127);
+    color: $dark-pink;
     margin-left: 10px;
     margin-right: auto;
     font-size: 25px;

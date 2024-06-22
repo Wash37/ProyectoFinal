@@ -132,34 +132,6 @@ body {
   height: 90%;
 }
 
-/* 
-#inclusiones h2 {
-    position: relative;
-    font-size: 45px;
-    left: 35%;
-    font-family: 'First';
-    color: rgb(223, 108, 127);
-    margin-bottom: 20px;
-}
-
-#TextoInclusiones {
-    position: relative;
-    margin-right: 35%;
-    margin-left: 0px;
-    font-size: 40px;
-    color: rgb(223, 108, 127);
-    text-align: center;
-}
-
-
-#VelaBurbuja {
-    position: relative;
-    margin-bottom: -300px;
-    left: 75%;
-    top: -350px;
-    width: 450px;
-    height: 350px;
-} */
 #OferubiFather {
   display: flex;
   flex-flow: row nowrap;
@@ -226,35 +198,6 @@ body {
   font-size: 60px;
 }
 
-/* #InteriorPie {
-    background-image: url(/Assets/img/Portadas/PortadaFinal.jfif);
-    background-size: 100%;
-    background-size: cover;
-    background-position: center center;
-    text-align: center;
-    position: relative;
-    top: 290%;
-    left: 5%;
-    padding-bottom: 200px;
-}
-
-#InteriorPie p {
-    color: rgb(223, 108, 127);
-    font-size: 55px;
-}
-
-#InteriorPie a {
-    position: relative;
-    left: 0%;
-    font-size: 70px;
-    color: black;
-    text-decoration: none;
-    font-family: 'First';
-}
-
-#Pie {
-    background-color: black;
-} */
 #TituloVelas {
   color: rgb(223, 108, 127);
   font-family: "First";
