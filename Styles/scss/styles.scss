@@ -577,7 +577,13 @@ body {
     .Box1 .Cantidad {
         position: relative;
         left: 50px;
-        top: -30px;
+        top: -10px;
+    }
+
+    .Box1 {
+        .ValorTotal {
+            margin-right: 10px;
+        }
     }
 
     .Box1 input {
@@ -611,7 +617,13 @@ body {
     .Box2 .Cantidad {
         position: relative;
         left: 50px;
-        top: -30px;
+        top: -10px;
+    }
+
+    .Box2{
+        .ValorTotal {
+            margin-right: 10px;
+        }
     }
 
     .Box2 input {
@@ -640,6 +652,12 @@ body {
     #VelasFather section {
         width: 90%;
         margin-bottom: 10px;
+    }
+
+    #CatalogoTitulo{
+                h2 {
+                    margin-top: 40px;
+                }
     }
 }
 
@@ -746,12 +764,12 @@ body {
         left: 15vw;
         font-size: 50px;
         padding-bottom: 0px;
-        margin-bottom: -150px;
+        margin-top: 50px;
     }
 
     #Titulo h2 {
         left: 12vw;
-        padding-top: 2%;
+        margin-bottom: 200px;
     }
 
     #inclusiones {
@@ -775,7 +793,7 @@ body {
     #InclusionesImg {
         width: 100%;
         height: 50%;
-        margin-top: 150px;
+        margin-top: 220px;
         margin-left: 20px;
     }
 
@@ -789,7 +807,11 @@ body {
         width: 100vw;
         height: 15%;
     }
-
+    #Ofertas {
+        h2 {
+            margin-top: 10px;
+        }
+    }
     #Ofertas p {
         font-size: 25px;
     }
@@ -797,6 +819,12 @@ body {
     #OferubiFather #Ubicacion {
         width: 100%;
         height: 50%;
+    }
+    
+    #Ubicacion{
+        h2 {
+            margin-top: 20px;
+        }
     }
 
     #OferubiFather #Mapa {
