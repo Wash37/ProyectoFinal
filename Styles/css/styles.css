@@ -1,3 +1,4 @@
+/* variables */
 body {
   background-color: rgb(255, 211, 218);
   margin: 0;
@@ -20,7 +21,6 @@ body {
   border: solid 1px;
   grid-template-columns: 10% auto 11% 11% 11%;
 }
-
 #BarraGrid a {
   position: relative;
   color: black;
@@ -29,7 +29,6 @@ body {
   top: 37px;
   margin-left: 20%;
 }
-
 #BarraGrid a:hover {
   color: rgb(192, 110, 123);
   font-weight: bold;
@@ -46,7 +45,6 @@ body {
   background-position: center center;
   text-align: center;
 }
-
 #Titulo h1 {
   position: relative;
   font-family: "First";
@@ -55,7 +53,6 @@ body {
   font-size: 50px;
   color: rgb(223, 108, 127);
 }
-
 #Titulo h2 {
   position: relative;
   left: 24vw;
@@ -63,15 +60,6 @@ body {
   font-family: "First";
   font-size: 30px;
   color: rgb(223, 108, 127);
-}
-
-#CatalogoTitulo h1 {
-  font-family: "First";
-  color: rgb(223, 108, 127);
-  /* position: relative;
-  left: 34%; */
-  text-align: center;
-  font-size: 100px;
 }
 
 #CatalogoTitulo {
@@ -82,13 +70,17 @@ body {
   background-image: url(../../Assets/img/Portadas/PortadaCatalogo.jfif);
   background-size: 100%;
 }
-
+#CatalogoTitulo h1 {
+  font-family: "First";
+  color: rgb(223, 108, 127);
+  text-align: center;
+  font-size: 100px;
+}
 #CatalogoTitulo h2 {
   position: relative;
   color: rgb(223, 108, 127);
   top: 5%;
   text-align: center;
-  /* left: 37%; */
   font-family: "First";
   font-size: 35px;
 }
@@ -102,18 +94,6 @@ body {
   border: solid;
   border-color: rgb(223, 108, 127);
 }
-
-#TextoInclusiones {
-  width: 60vw;
-}
-
-#TextoInclusiones p {
-  color: rgb(223, 108, 127);
-  font-size: 30px;
-  text-align: center;
-  padding-right: 20px;
-}
-
 #inclusiones h2 {
   color: rgb(223, 108, 127);
   font-family: "First";
@@ -122,10 +102,19 @@ body {
   margin-top: 15px;
 }
 
+#TextoInclusiones {
+  width: 60vw;
+}
+#TextoInclusiones p {
+  color: rgb(223, 108, 127);
+  font-size: 30px;
+  text-align: center;
+  padding-right: 20px;
+}
+
 #InclusionesImg {
   width: 40vw;
 }
-
 #InclusionesImg img {
   padding-top: 30px;
   width: 95%;
@@ -137,13 +126,11 @@ body {
   flex-flow: row nowrap;
   width: 100%;
 }
-
 #OferubiFather section {
   width: 50%;
   border: solid;
   border-color: rgb(223, 108, 127);
 }
-
 #OferubiFather section h2 {
   text-align: center;
   font-family: "First";
@@ -156,7 +143,6 @@ body {
   height: 45%;
   margin-left: 15%;
 }
-
 #Ofertas p {
   color: rgb(223, 108, 127);
   font-size: 30px;
@@ -183,15 +169,14 @@ body {
   background-position: center center;
   text-align: center;
   color: rgb(223, 108, 127);
+  height: 50px;
   font-size: 55px;
   padding: 350px 0;
 }
-
 #InteriorPie a {
   text-decoration: none;
   color: black;
 }
-
 #InteriorPie a:hover {
   color: rgb(192, 110, 123);
   font-weight: bold;

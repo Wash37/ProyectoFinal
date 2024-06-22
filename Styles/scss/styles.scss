@@ -23,21 +23,21 @@ body {
     border: solid 1px;
 
     grid-template-columns: 10% auto 11% 11% 11%;
-}
 
-#BarraGrid a {
-    position: relative;
-    color: black;
-    text-decoration: none;
-    font-family: 'First';
-    top: 37px;
-    margin-left: 20%;
-}
+    a {
+        position: relative;
+        color: black;
+        text-decoration: none;
+        font-family: 'First';
+        top: 37px;
+        margin-left: 20%;
+        }
 
-#BarraGrid a:hover {
-    color: rgb(192, 110, 123);
-    font-weight: bold;
-    font-size: 18px;
+        a:hover {
+            color: rgb(192, 110, 123);
+            font-weight: bold;
+            font-size: 18px;
+            }
 }
 
 #Titulo {
@@ -49,34 +49,24 @@ body {
     background-size: cover;
     background-position: center center;
     text-align: center;
-}
 
-#Titulo h1 {
-    position: relative;
-    font-family: 'First';
-    left: 40vw;
-    padding-top: 2%;
-    font-size: 50px;
-    color: $dark-pink;
-}
+    h1 {
+        position: relative;
+        font-family: 'First';
+        left: 40vw;
+        padding-top: 2%;
+        font-size: 50px;
+        color: $dark-pink;
+        }
 
-#Titulo h2 {
-    position: relative;
-    left: 24vw;
-    padding-top: 6%;
-    font-family: 'First';
-    font-size: 30px;
-    color: $dark-pink;
-}
-
-
-#CatalogoTitulo h1 {
-    font-family: 'First';
-    color: $dark-pink;
-    /* position: relative;
-    left: 34%; */
-    text-align: center;
-    font-size: 100px;
+        h2 {
+            position: relative;
+            left: 24vw;
+            padding-top: 6%;
+            font-family: 'First';
+            font-size: 30px;
+            color: $dark-pink;
+            }
 }
 
 #CatalogoTitulo {
@@ -86,16 +76,22 @@ body {
     background-repeat: no-repeat;
     background-image: url(../../Assets/img/Portadas/PortadaCatalogo.jfif);
     background-size: 100%;
-}
-
-#CatalogoTitulo h2 {
-    position: relative;
-    color: $dark-pink;
-    top: 5%;
-    text-align: center;
-    /* left: 37%; */
+    
+    h1 {
     font-family: 'First';
-    font-size: 35px;
+    color: $dark-pink;
+    text-align: center;
+    font-size: 100px;
+    }
+
+    h2 {
+        position: relative;
+        color: $dark-pink;
+        top: 5%;
+        text-align: center;
+        font-family: 'First';
+        font-size: 35px;
+        }
 }
 
 #inclusiones {
@@ -106,67 +102,69 @@ body {
     margin: auto;
     border: solid;
     border-color: $dark-pink;
+
+    h2 {
+        color: $dark-pink;
+        font-family: 'First';
+        text-align: center;
+        font-size: 30px;
+        margin-top: 15px;
+    }
 }
 
 #TextoInclusiones {
     width: 60vw;
-}
 
-#TextoInclusiones p {
-    color: $dark-pink;
-    font-size: 30px;
-    text-align: center;
-    padding-right: 20px;
-}
-
-#inclusiones h2 {
-    color: $dark-pink;
-    font-family: 'First';
-    text-align: center;
-    font-size: 30px;
-    margin-top: 15px;
+    p {
+        color: $dark-pink;
+        font-size: 30px;
+        text-align: center;
+        padding-right: 20px;
+    }
 }
 
 #InclusionesImg {
     width: 40vw;
-}
 
-#InclusionesImg img {
-    padding-top: 30px;
-    width: 95%;
-    height: 90%;
+    img {
+        padding-top: 30px;
+        width: 95%;
+        height: 90%;
+    }
 }
 
 #OferubiFather {
     display: flex;
     flex-flow: row nowrap;
     width: 100%;
+
+    section {
+        width: 50%;
+        border: solid;
+        border-color: $dark-pink;
+    }
+
+    section h2 {
+        text-align: center;
+        font-family: 'First';
+        font-size: 50px;
+        color: $dark-pink;
+    }
 }
 
-#OferubiFather section {
-    width: 50%;
-    border: solid;
-    border-color: $dark-pink;
-}
+#Ofertas {
+    #OfertaPortada {
+        width: 70%;
+        height: 45%;
+        margin-left: 15%;     
+    }     
 
-#OferubiFather section h2 {
-    text-align: center;
-    font-family: 'First';
-    font-size: 50px;
-    color: $dark-pink;
-}
-
-#Ofertas #OfertaPortada {
-    width: 70%;
-    height: 45%;
-    margin-left: 15%;     
-}
-
-#Ofertas p {
-    color: $dark-pink;
-    font-size: 30px;
-    margin-left: 20px;
-    margin-right: 20px;
+    p {
+        color: $dark-pink;
+        font-size: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }
 
 #Mapa {
@@ -188,19 +186,20 @@ body {
     background-position: center center;
     text-align: center;
     color: $dark-pink;
+    height: 50px;
     font-size: 55px;
     padding: 350px 0;
-}
 
-#InteriorPie a {
-    text-decoration: none;
-    color: black;   
-}
+    a {
+        text-decoration: none;
+        color: black;   
+    }
 
-#InteriorPie a:hover {
-    color: rgb(192, 110, 123);
-    font-weight: bold;
-    font-size: 60px;
+    a:hover {
+        color: rgb(192, 110, 123);
+        font-weight: bold;
+        font-size: 60px;
+    }
 }
 
 #TituloVelas {
